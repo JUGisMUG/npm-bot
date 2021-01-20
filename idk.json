@@ -1,0 +1,1408 @@
+{
+  "_id": "wio.db",
+  "_rev": "45-24beda3d36a23822b58d795093c87cc0",
+  "name": "wio.db",
+  "dist-tags": {
+    "latest": "4.0.10"
+  },
+  "versions": {
+    "1.0.0": {
+      "name": "wio.db",
+      "version": "1.0.0",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "discord.js": "^12.2.0",
+        "fs": "0.0.1-security"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "_id": "wio.db@1.0.0",
+      "_nodeVersion": "12.10.0",
+      "_npmVersion": "6.10.3",
+      "dist": {
+        "integrity": "sha512-r04eAZmS6pwKnjIxmrjRN70X6jtR6VJOzKliajPT/czoZtyNJR9ICOSqrdxZW4jdLQ2LGKN13A97X25cQnmQjA==",
+        "shasum": "c5c0466fe6b6e8058e47703567be84ba5fd19332",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-1.0.0.tgz",
+        "fileCount": 11,
+        "unpackedSize": 4469,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfFYVlCRA9TVsSAnZWagAAuPEP/R01W2RQ7gOVVNjRIbgs\n1OVdBUY8il0hzIWSfhAwp7FZDGIFmklfD4ET28MYS8HCWhsaMHmP5jP5TSlO\ndWecgh00KO96R13gJEFyujiiQIj1xRPk0xXDnrcbtbuybKFjl9uvddBeRqr1\nwilB4RgV3WKH2LL6pOtwngeoGchmT+3Q43Uy/PVUj8bjCPGi4kUIOp3xp+kw\n5ATWzB9sE3DQ21l9P8+xmKCNokhGIaKwcvWuycRCmMEAX0JZtT/GH4d2Culj\nLmztV9I8ho5t+SUk6Tj4A8lOBOY2lMibIzxnybLYFEbuBUI0lYO7pXdhkW6D\nVVMzmrRRGApgMBDQ2XvfrIDyrS9Ne9zuPEAfb0zmhvV+KwzdXFo4JgmQnUDH\nY0FvFEo9+QeSj4Ct2N7dD9+liZzLHRYPjXkHR1AiOBeDj6/W8zIYw/xi/Yla\nQTrGJG1Zi9/luVQS1v+oThFkAoJ1qgbgT+sL0HSnmXZsVh2MLl8Xn6m8ZkAz\nUrPp56jeKNvUU07HBdmkwEgiH9DeLLQH3OCoytJmRIUxZqQWjWCYJR1gWeAX\nR9eCLYLoA43nOcVaSH6KOplb1FtWBkvtWA1O7UZYpQtv+YiPkdtaosMISnFm\nJSTDrHvokx3TXKoMulrJnwDMIf6+vQYXdV1t1FX6BYDN86Td+KnWUmaC93Mh\nSCWM\r\n=Bqye\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_1.0.0_1595245924739_0.6626334946225316"
+      },
+      "_hasShrinkwrap": false
+    },
+    "1.0.3": {
+      "name": "wio.db",
+      "version": "1.0.3",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "discord.js": "^12.2.0",
+        "fs": "0.0.1-security"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "_id": "wio.db@1.0.3",
+      "_nodeVersion": "12.10.0",
+      "_npmVersion": "6.10.3",
+      "dist": {
+        "integrity": "sha512-DDsxikEqrDga5EocvfsbcheHtATjUBXDUx9C3H+TrSftC5UvPBbLl5pgUJOuvPjeNrzpGJilTfljSrH+P7zQkQ==",
+        "shasum": "a3ad725fa34379f0be56b21be74375163d955c51",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-1.0.3.tgz",
+        "fileCount": 12,
+        "unpackedSize": 5097,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfFfPJCRA9TVsSAnZWagAAqQYP/RtcqqvV1DvaXUKywhK9\n3D92zAJcOvt6a/GYu4LdRpo1F2CCI4hhs0IvHVthxbUQhCa+X/jwc0lg2nl+\nVidzBw6YLhV2PJVjCtzb6irafhiwy8zhhZm4Pld+iJ/RsncYn4ebaGXLGBDn\nlpaKYqT4hUUxHTJwyRSKLeHh/vYBfpfTOp6h5XyYkqfRSO9su6xe949Epjlm\nnxpcu0Vt9PbNyMM9QNQtRyv3bN0gSomiDJGXL1B1e9xUSiPbafv0xSeuh1vU\nCWTAe+cesugEMcyQ/4ahgJIVev/uJIr/xIwhJp3m+T543r2HaDWO2UKYl3KQ\n2ZnHYpJZhtxrVayA0gKc3vCrYlFPS7ttbY81oisU4aJgiH/Mqu5CJy9Oj4yu\nYumYOXfYLqNXUlDM7DKAAoqKOHl9NvmXyP4OHHbRN96El8w+ItQyPP7UOK3R\n9vNyjhbovru5XQIvvibtF8sgD2t3cjvCt3ssinYaWCSrVR7+p3NboJDX/suu\nVg6dIISi5XQ1HbLbMd03KEpbYxBEL68pmSbvoBPN7TvPIa2uEaMMSsbEXhU2\nAO6ePmG8a8IiQL/xk9z4CNWhEX4AfBqBQiwu5DMdv+aKFh2iQ6ljKOnITxFe\nW+lFjrwyJcEnUW9uIxgpaGb2tUAm/9/7moxZPZWP0lLt8adFExEjV3z0kv5k\nAUTi\r\n=EuXt\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_1.0.3_1595274185295_0.12681681158755853"
+      },
+      "_hasShrinkwrap": false
+    },
+    "1.0.4": {
+      "name": "wio.db",
+      "version": "1.0.4",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "discord.js": "^12.2.0",
+        "fs": "0.0.1-security"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "_id": "wio.db@1.0.4",
+      "_nodeVersion": "12.10.0",
+      "_npmVersion": "6.10.3",
+      "dist": {
+        "integrity": "sha512-RxI6sDa58proGLYNVIntBSJKYAT/lUp8CreKOKNFLJeyJhh3ZB5kA8WuAkB3MBEp1OrZgIdhghc6uqKjv9ECmA==",
+        "shasum": "735fcfa8b171130ed05d8984e840e4be170dc2f5",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-1.0.4.tgz",
+        "fileCount": 13,
+        "unpackedSize": 5741,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfGcKHCRA9TVsSAnZWagAASnMP/iXRXbmL+tvWMCHFiPhh\nj+aMGq8f6bg6wUTWSdbhmzw79wSxoio4pp1HpHgYpPGjbM9SPNzWOazWY+LR\nU1XdWp8mQmdJqNSnB7XvilqGztbIab5YDz/wpQft9q1dDfD2dBP0oYljm0zm\n/Yr0rT4Mi8+SsjxOZhPdNTwmgGNiWwgvpKIeHdHbeFBEfN1dxGAe9Wlk54WQ\n0CkCFj2NQK+BQ8cdG3hPVzTkCvKZyfVV0rlLuzLHC9/u8/BiaAyPPH9dSxfR\npfO3t7ZpLcuaSwHwXNpGtoAX5pokGYkXnpGX/6XWy8X8+qJH/ZPnTXR0h4/+\nF2Z5cb/vhy3ZLF4apiyhzKNY++czHB3WDshFvWG1vYPaKGdtWCQcTUyGYB70\nno37yjlAtaj7SJesnuRTDnRLL43V6FuwNHYFGXeP5T9146jtV/OxKi7kOjDI\nqDjAHaTG9RIvKpbLILixEsUOMCHscH8vt1OW7g1avlUkpbjUyUWU1A56g1yK\nH52Lc6PCYCzZoNXziK87PxZBtLWVzjumMTxrLyNOj3CcvujWhdXZVMr72naS\ngWtdAS+0X7inKnZmdgkx5y2d6XuPop+8gOgiybfz+ABR1IhqGlwBQxycfPr5\nTxFsKzKjsaDMiaHPu5zcAqIiFEhB+isxrykuf6fHZiVSCVZfw/SEJt83GHXb\njWQN\r\n=vgpd\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_1.0.4_1595523718525_0.44647830848772174"
+      },
+      "_hasShrinkwrap": false
+    },
+    "1.0.5": {
+      "name": "wio.db",
+      "version": "1.0.5",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "discord.js": "^12.2.0",
+        "fs": "0.0.1-security"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "_id": "wio.db@1.0.5",
+      "_nodeVersion": "12.10.0",
+      "_npmVersion": "6.10.3",
+      "dist": {
+        "integrity": "sha512-kHKQNiYRDFAPxZUtwNjiVM7AoaOpg8NPbOeJFrbiororBYbKwrmQd25GmkVLm152wR8YY6STY7drZ/AKYZ32lw==",
+        "shasum": "1dc6394e6ec8b01994d4855b9ddd363fc2cdf674",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-1.0.5.tgz",
+        "fileCount": 13,
+        "unpackedSize": 5687,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfHiC+CRA9TVsSAnZWagAAvrkP/06bbSc8M6lUTy7mK7Ez\n67P5jZvCuUodVZaKCo8VpOQciwsGlPPxvp17h/iYIWdZANdGIvn/z1zmvMWu\n9uYNeGDXCuvInWakLtOi8b1MjRTBFVsXe+DlECK3Bow7vg0P3ZNFWLSHiiB8\nEtLRKJbRG0arpkimK6nd60j8uXJNayJQVSvkJnPHIIOwxAh+jRoZkdMOLGgD\ndyOXqJfbcu5eNo1qplwsLC3mFfJMEJU20GTVoMUt0wezzXtKWghjbpEleABl\n0sxnUrW18JVbUcTs9gHu2DQYuQFxpfKsDupB/H3YHoECG0HjSH7vYB7hGJH3\nyb4mTZ71c+yC4dHhtu+1kYMbtddUg6TS/RMfutpzymM/ev+t6egxTZTxFFOb\nYuKO5Ue6ECMIQCIRa5+Dzdx12TEsfVSlP6pgLuAOg9DuRo87/9Qlb6Kk191q\nyq3nUe8ScPqXyf6hITcHRcNAsuucI2NwjUmEphaPG+7F2A2ecEUYWZaTjSFF\nmLI4J7E0yl4ZwKD9tI1FWv0ULMBWXkdljtAfwS4Ak0Q7EWlaHGqGY7ewqHTo\nCP3gf1whjsKPQavK83vEdzbQFtIR79QbY/mxxZr8MI42PhaiNN9qdFwaR66d\nhHsf8glWLztjof8QvUnpvJHc096NUMRpM1q+Iwtj1/HeKAO6ZKxmtLNx/3R2\nm4gr\r\n=E/by\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_1.0.5_1595809981546_0.5269756293817855"
+      },
+      "_hasShrinkwrap": false
+    },
+    "2.0.3": {
+      "name": "wio.db",
+      "version": "2.0.3",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "discord.js": "^12.2.0",
+        "fs": "0.0.1-security"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "_id": "wio.db@2.0.3",
+      "_nodeVersion": "12.10.0",
+      "_npmVersion": "6.10.3",
+      "dist": {
+        "integrity": "sha512-kNbgr9PSsBwFI0mm1nO5iXlKBBg3RKUE2Oes3rEy2kmGnF1pRKd21iQ/GSeEZ1SL1TNm1RujuBbSq0TtNxzayg==",
+        "shasum": "ceb7bf36c3a52fad0179aa7efde895cfa66a94d2",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-2.0.3.tgz",
+        "fileCount": 14,
+        "unpackedSize": 5956,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfI279CRA9TVsSAnZWagAAbdwP/04eWLfy+9fSv7jtH9Oc\nMWjm3I0nuoywxxqcTVJWchEaJUWQUwcWQnAQQ+NiscSU4iDdOruxym/cxwFZ\n75rRPsLZbUIEtnulTqlG7Ew17W4P60RoWBoos0ew8PKrT4rm75RBQFJAJiUa\n5Mrjx0eiVdLti3Tik1HYxOvBTF+INOo2GaR3KfyTa7AFODNdMM6k2YIY75Qh\nD0qKMOW2ImnHUW3hvagnOi8HypWpUvsQ3TEM8INuj6CgXQCW3WaGbfuPpInc\n30xSD6/buNKmJjLBfcJl30ljpDAZ/r0hMciVLLLQRxtZpRRiFAZRdTZiEcDv\nKRQBSfVPdsY2ypuWwNXd7DC76CmWTE2SLeH7Rlml7aS7iSqFEcJF6SIfKn0e\n2NIIJRjYmDZEuA4Q2U2ibhNnENM0rDVFdUxO3RadM5jZPyHGMr5xxVxEpOvQ\nNsSNVU+yOYqLDGMOzPCoxERPBJ71efeSZQzw1/idO4m4aoUfJ1Geul9sClGZ\nUJx9cPfmmfYVOAuIJlsPUpMrZ3UVaN45oUfOCPlEC6CPTJGDpDEnkTWbYRbp\n4/mezsRd1UedVpc63f3gv0zKSlQcKIGgY8zBqRZ3MpJFIdaBVh8sSEEKSGMa\nd9ZVbFfy3yYD0PK9v/1B22bTfZAkIwpfTk5iFqIbgDiWT5j+mGFXidjH3YoU\nvLtF\r\n=mVsf\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_2.0.3_1596157693316_0.4016125035946567"
+      },
+      "_hasShrinkwrap": false
+    },
+    "2.0.4": {
+      "name": "wio.db",
+      "version": "2.0.4",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "discord.js": "^12.2.0",
+        "fs": "0.0.1-security"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "_id": "wio.db@2.0.4",
+      "_nodeVersion": "12.10.0",
+      "_npmVersion": "6.10.3",
+      "dist": {
+        "integrity": "sha512-Tdyj7bXZOq+FWLXUHm+0GVUVGq/nO1cQ1z2tdRaGCD1fbFyLWg4hq3q4R0o3b2RUbhRRVuf2oHf6fU6J9Glbrg==",
+        "shasum": "51a984f3f386f5eefd00c2cd888c0e1ed4f7a040",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-2.0.4.tgz",
+        "fileCount": 15,
+        "unpackedSize": 6521,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfI6FDCRA9TVsSAnZWagAAjqMP/1yE4BsYBlXBk9bbhrpt\nGYWKWUIJzpbQP89kK1T1QS/8PWGAjZPouKOMs1PKwyndakgdD36Ba4nKISyM\nzlShcAM0rZXEGY6GL2EDfUGz8jGaEFx5JlphNCI4tebAqvT8ngrX16A6hOEw\n+M791ZiVxvKOxES9uCONDF4/ozN/bjZ3G8r4f4OZSuk/z1l7fkME3DarZFlh\n3nuhzhfuQHC84IQdT7Isu60DC785sAZ/BjDVlkGSTT2UKNtgNOpG5Lz03x30\nsUWPp9wE7ydqf8HXe1V2AoHut1Of0seTr79QyPmNaGvqvOHDbUW0Y+4EA7sg\nMZEOLIv4ypZog2IgzQbgMkJUAh3cLGvCuy1Zz2/SH4dFMRHeDPcQWWa9EK1s\nG4AmebK03eIQC87Y7S7RbxaRnKu+YMrfUI+lmXdi2oAqYcaKO8Vzdltnv1wP\nOWWEwCm4WjIAjfMaGhKhBYUSQ11DHAzmb7TDQsV1U+mX+kZufxpTE07ACnxM\nzSAzJJlCqI6kIHoe/lfhAWsjkBFgt56TbdCN/yRp8hPQk6RHWistGEDdWfgm\nO01gMmnsNkQ1XdC/W7Fvm8hd5Ol8pyg3vjyDmGGZuN43J0zuqUZoePyEA8zH\nXH6gnybvSnOyaZS1sSfsmNVQljuSIoRMZewJrRThdRpJJnyQspJfGUgND3Re\nXuXN\r\n=dIax\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_2.0.4_1596170562679_0.2990512338016229"
+      },
+      "_hasShrinkwrap": false
+    },
+    "2.0.5": {
+      "name": "wio.db",
+      "version": "2.0.5",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "discord.js": "^12.2.0",
+        "fs": "0.0.1-security"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "_id": "wio.db@2.0.5",
+      "_nodeVersion": "12.10.0",
+      "_npmVersion": "6.10.3",
+      "dist": {
+        "integrity": "sha512-gpiSp3+L9+B77/FrtnQJFjqs9AU7hW4Xba/GuXDwM0josDa1m6plHZLQd8d4EmXe8J+NXN+8jdyJD/ea6yufsg==",
+        "shasum": "b680c2bdba0207d9b89fe599d678a7bc7d481c72",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-2.0.5.tgz",
+        "fileCount": 15,
+        "unpackedSize": 6455,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfJFLsCRA9TVsSAnZWagAAljQQAI85DtNmXC9mDjCsHyJS\nZLy++ux+EbdWVkWglniMnOnBteB7ptfdvWZJEWYnCE5wGP3YrCG380G0isI4\nUd+9Rc4nXDgi+WSl0qgHz3VDnW2BqmSSVD+rgjCVn0DQhsPqymPNndPRNGAW\n7+lxvFOW/yaZHuOcsHOabU8xiyHd+VDpmSMAfbpBagcGble0e3YWMiy2QB5r\nVgSFmxnbI9RKB4B7gnSqJk6ZSYOfBUNkqpnZe52cfZUr+dvttmpCZefbo177\nzUYCGJ7YfS7OtXkK/sl6Rl8APJXUmvOXKFWgIGzuiRXK/uRvr/+Evp5YniaX\ntwozpF2uaLqQwst1Oqkpa1DuVLsRR2ShhLQqgFYLL95K3gOjtiCgpBOLwxpw\nuyMMjahxxkXJ5G6NlrpD1e5N4sD2t5woPQgMga9epfiCiXUCIIVLZ8oozBOn\nxBWChZs8M0F79mXwXD9eWkFFQxF2dOIgIadyLSjYsc055XtZrA3DP4zPgMIO\ne0gHFL/PI+t2YF5kkYxEN7dBbZ8IAgaSWjUgfghy/5HluUJte1hFHcJYI2pC\nB+8WkWkmHXOHa4m6jBD+dh9YUtowzZ/kf+1L0LWvohS9tmzSkraD4cQeEE+p\nc8TsbHeQtcIJko3zdyPD8bIe0I+Tnvj6Z0lUAsyMyybUxMpYxza/2qK4OtUe\nHXcf\r\n=9mzA\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_2.0.5_1596216044493_0.3364308565742984"
+      },
+      "_hasShrinkwrap": false
+    },
+    "2.0.6": {
+      "name": "wio.db",
+      "version": "2.0.6",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "discord.js": "^12.2.0",
+        "fs": "0.0.1-security"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "_id": "wio.db@2.0.6",
+      "_nodeVersion": "12.10.0",
+      "_npmVersion": "6.10.3",
+      "dist": {
+        "integrity": "sha512-vS5sV1OorHVJJcBLKc7K/xU4s+3eosWCdDgAFNbXlXmg8nSXBrMMZC3zPbyw6WULhWq288NyVrGe0DV8Mz2iIg==",
+        "shasum": "eca29bf42eabbf0debc389f7ee95a8a6181bb24b",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-2.0.6.tgz",
+        "fileCount": 15,
+        "unpackedSize": 6675,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfJXgHCRA9TVsSAnZWagAA/McP+wSrqIp9Gp5GUi9sVZiK\np3EAWpHtrNcQUL0oWqT9SU6FHjCAW3kFCtDwR3nNwv+ash+vXNlEMOk3sxDH\nWaCz3+yaidEiOZt026UaA4BxngK7GQReZAIZH0xEscmEFBiu9tk06yVuu9OZ\n/fAZaWKx5QVvgre1m/tL+f7OrtC8uvk+u89lASjIc4FNsJZn8NHIwFnHy221\nSPzkeTgbnQZnx4NSIgj4O2iw+HG2Q84lZ4LslTjHlext3NljdVydB0P8I0Dg\naRY5hu8fxMmtjQjPJdl2ydmp/2oV22aEB7zmSerJKn5iz5FqGWd4etgbwiul\nsZGysTqLA5fo1VuUx1vzXQRq6ZmxuPptnpZ9qO4m4ae1NHA3jkekHS05ynQO\nTLB11xtEDaYzyJulCKwcbYAK3TMMPdh3JCcp7DSyx3Vq7Qrjgvkpq329PNax\nR95qPetmJrJxGe3PT7hM6g557nNUNBvS+PlY+RdFrdYELChvD5U385Tem6zu\nHd7FcQXKvVnS4QXNmN3y2Zb/PhSPoZlUWzrDNlQxd0CWgRAQqwNsI3NeZANk\n/ESgotJo2yiPcH86+gMem1/MPXuFxYoTXqEnwLoUjws65/T8n/k4WmeNwuP1\n5obirYI2VFnnyqSfh/G6t7KyCgfDK01D4Uy5XKZliUf+vVAkBemE8k6jEv/z\nW1i5\r\n=AJg7\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_2.0.6_1596291078552_0.8724348901290033"
+      },
+      "_hasShrinkwrap": false
+    },
+    "2.0.7": {
+      "name": "wio.db",
+      "version": "2.0.7",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "discord.js": "^12.2.0",
+        "fs": "0.0.1-security"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "_id": "wio.db@2.0.7",
+      "_nodeVersion": "12.10.0",
+      "_npmVersion": "6.10.3",
+      "dist": {
+        "integrity": "sha512-ltc1gcre4twbZq9ayQOZQX9jAaaWvdoz8L9WFBoQa42F20psl2kXEgxbCAD0SwuXRcTQkJ3oyzTLhtGwfpCj8g==",
+        "shasum": "c53721507c14e7b3ace44eed9990f0c641502b5e",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-2.0.7.tgz",
+        "fileCount": 16,
+        "unpackedSize": 7366,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfJfIfCRA9TVsSAnZWagAAi/gQAJJq3AMsQp32d7/pf5em\nSPvWXML4WbqyHQH+8nowFeSEaD2163It0mhkVoDt0axDQMXZzMEFRjK8/7TB\nNV3cXHTToacqWIZrOzgakgm1mpKg9Ji2wFTuFD7tMtsigipqTuv+rY4IxSKj\n20q6LuF3YtygN4XY8O/PfqUJr9H+RpDeisvWxKo45xkdoAWKvj3w58SRH3ot\nDqWDZy02sf1rlFGaiW1vAcZTOXpQHh3fWvkt3x3NZWXsUgInCgCjlhodEMLV\nVuY39nnpof6+VR41MLVrBeLwfarB1zPbl9IQFdYxmxZc6BZ3EYOmc033RfuH\niPjosJ50wVANVlC65nrtRjZD34/WZh7jQRbqydW1ASbKdZzFtH+LqRp1Sz3x\nx/QP22JRwywdEOg04HpUVYviD6eQuUwdbWuJxv3x1kAqi0TbIvAKCqsagcPK\nCAUdIoouLqv36MkmGQ98VpxG21iO05DjlscjwTmZxmI2WDpzRoqUhNlpgFin\np2uYzqhUr5aDaaUz5+Ode2wMj7UM3cAiQSoGjALz9au7RBTzZrKN+qxaXGAT\n2YasKlJtwc/b9z/3XnAPfvoZXooFSviIa0X2JcOQ3vOhQvkn2xjbDlAum1qo\nWcLQbShuKJA/ZxkWIvk7kcnS2l753eBsvWwa9t0Mll5Zznfu9vlDqn46jqEd\ngrd7\r\n=XG13\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_2.0.7_1596322334888_0.4289653682375434"
+      },
+      "_hasShrinkwrap": false
+    },
+    "3.0.1": {
+      "name": "wio.db",
+      "version": "3.0.1",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "discord.js": "^12.2.0",
+        "fs": "0.0.1-security"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "_id": "wio.db@3.0.1",
+      "_nodeVersion": "12.10.0",
+      "_npmVersion": "6.10.3",
+      "dist": {
+        "integrity": "sha512-c9xYG1MoO7KASiSMBttmHNmOUvG2/ymilmMbXA3GhoKW65MnbEzGjaCs0WtchgVyrsArMvL6ptZN174wihaLIA==",
+        "shasum": "d32f4908fdddc6845efb690844b02e5c79c7d372",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-3.0.1.tgz",
+        "fileCount": 16,
+        "unpackedSize": 7431,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfJv3sCRA9TVsSAnZWagAAj7sQAJov8dhjRmPcz2NiQRYm\nhDIKqwG7gYbtQysfRuHQIlM3CLDyg251w1cb+aEnBLnaVPycCkgAEQIafsXj\n8p7rZfYsn3B0xyKxrsySMDEsa2DryTRUuqyjh8aOzcJCgVkQRHDEmLfPO+4t\nCMOUJ4Xu9oRCXt/z6LqkKZqIvY+A/0wZ9wsGsmdWFluT4zG8TQHnkqo6dzPc\nVBb87QAmJzcpwdP8KkRae9cW0h9Qvf75UnmX36ZFUTsdEZsg//QZZ0utNUHJ\nkQSfTWIPWqb+DHlXdMGNsJRUeyYEWWB6QOLRHzo0PEKBKOhMMripPIJrAgAG\nDF9ECewBI2KMgrMREQC/WEp0xuTd1Ph7FQa1glv4RdTC0PngyZ3HOUEiIfvy\ns95dq3LaMlFBrBGtX0WwxjL9HxSjOXHu5IghtSQ9o+KuLzk18Eobbb+/IXlP\noULnAZGFL48TAksivfWyBaR5c8BVaPWaTXKsEN/QjJyiDZc82vtopkbu/ODr\ndZAjjjMo2qmWqOeRnflpGMqU/J7GfPcIG1JcrzjAq4aZbc9rTJgXUq7wz4ni\nQdXwoWWOhraLVX714RJtKZuTht1rXm99hMeF2d1UgXis6vmcVnbKDGIHJq8y\nupTGBoVFTnDcN5BNNFhdp7DIZROL+oeHHQ76i8zSwBd10u8IO9BQyO0J6DHM\n3l5i\r\n=DSXX\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_3.0.1_1596390892349_0.1870736954360357"
+      },
+      "_hasShrinkwrap": false
+    },
+    "3.0.2": {
+      "name": "wio.db",
+      "version": "3.0.2",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "discord.js": "^12.2.0",
+        "fs": "0.0.1-security"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "_id": "wio.db@3.0.2",
+      "_nodeVersion": "12.10.0",
+      "_npmVersion": "6.10.3",
+      "dist": {
+        "integrity": "sha512-IQqKNwf5sxLSkxninvEhv395ULHJt+PVxPXcbdN1TNkmcFIhxcMDmbNmZxfIAvNqat9N687TwDa5Dm4lmB67dw==",
+        "shasum": "4c8cd968dc2010daa3d933edfd0e47a9b903cfa4",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-3.0.2.tgz",
+        "fileCount": 16,
+        "unpackedSize": 7534,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfLgwvCRA9TVsSAnZWagAAJ9kP/iXA2gDezIsD92OXYzAm\n1c3xdB8LpvHpiNDoUA/teRPtsNl0MDArA88v6ppSc7ezZp6MlePn+iDfzoUM\nS6RrUzklMys9VwqyxlKhu06mrTCNnbBhwICmXkgvQ18QB1JrlsgE9ZEO8Ktg\nvKjIf+iQZa4W3TlLpQqVJ+xvQb76/cN5wm54756tD0xM2zgIeOUmFFOnbp+K\nmsWKBwJXqQ7m5aJB7B/w8gd1rN4UT6rjdJyvZPte3f8W1RcVzZ7FsBmluKel\ni2ghaA6eAbqb7JC6jdBpbqX2kA/6G0t2VYT3nYgMDsgq3ccUDmPyOIjNHw9W\nRLHANqL35r2ChtWQhxMlvq8t1FGgWI404pziFaTYtuGOX50Q+iCO/57rxmMT\n97cNEAG40mWKqrxEK2OpY33MEE4ZmhchIDOsL7Ucx9dnfzFBZ8kK8h/0rd78\nPaDvZ17drEgcA+Malf0yqhiARqC/b40bBsVgWKh/So3yvi9OqQ95VUHE7kwN\n1Ro0OPifi5GFzD5eIWZwp9LuwUX/Eykl1rMgUwTqxEFfDd9CXcq0mZVjrYcu\nN17L6E0l/M/4nPOI/PyeR1wdbLEYklNxghE6W91w1H4WV4LsF+eFvkCvDVgb\na5aA6w6CP/UNWDceGmoTXEkycklgumQ8MGFgVedgchFmX8cgVQ8A3T6qGQTs\n+Ppj\r\n=/6hH\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_3.0.2_1596853294600_0.15060039163499295"
+      },
+      "_hasShrinkwrap": false
+    },
+    "3.0.3": {
+      "name": "wio.db",
+      "version": "3.0.3",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "fs": "0.0.1-security"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "_id": "wio.db@3.0.3",
+      "_nodeVersion": "12.18.1",
+      "_npmVersion": "6.14.5",
+      "dist": {
+        "integrity": "sha512-Wb6JYBaa8vkFYanKXPnKDl61K7PB34YAI0GhLkrCuyUmE3B/eR7KGQ/Om2ksDYGb4SoMB0L3wLDySYpYGy6JHQ==",
+        "shasum": "9b665eb3b6e82653ea338b5bffd4257486b855a0",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-3.0.3.tgz",
+        "fileCount": 16,
+        "unpackedSize": 7493,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfMntgCRA9TVsSAnZWagAATVMP/i/7tWMX21FT2vQ1myQN\nG45dyeMnbtTa+HM0e3bsKQx66trEECcVesZjhDeAf9D4kh6PJscXpB8vXhrJ\nG+/iDgAQsC/H92SHSfnrPr6BkPLGMmQY17xX8X5A5f9sc3/BtYMw6wXUDIAS\n/3LcuvtGOxKALTpU8acIrl95p/nZy+EiUikIDDNHM3XOdUFBTTP1NB+pD2YF\nPFev8KABweF4Ni5RjtFqrUQ/8pZbCTJ2hnuP32yylHlkY8aCVUNHLf2Aks2L\nR+GHEG0sMuzBomwQLmeStoMF4WZIfE7Ywo9DPIEM4sFDoP/O1inkaFoHvbV6\nzIGGW4s1hL46CYPzjioP84J9e+V1ZOpaQXyd9PycjfW4NCElewY+LyvRBMHe\nreWyi9V4BEgz/pLCUMNBwUwTp6COmg6dRvbH4JrURmQAv1Xgmj8XTl6Upo6f\nA7Tb99aHe36cgvgvXSJz0yOIjmVf8hUqeHYW1erGdU3T4RBzSRlXLftG9TS+\nx4/m8qeJaEo2yEF/3bM+HWrVBYYcXA9z5fydOLHvn4jrHvqPpx7Vuw74JhDR\nNTiLUxX6uY+AUNq9RHZOZMBtqua68aS8v4Y17e7Xcmk8AHKEGw/0Hz24/08p\nQmSP2msvYA6XcZuoVnksq915Zs7hSSALsseH7kFwsnH/W4M6oQVRZae6JKSG\nDwwF\r\n=hdpS\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_3.0.3_1597143903451_0.7420837390969319"
+      },
+      "_hasShrinkwrap": false
+    },
+    "3.0.5": {
+      "name": "wio.db",
+      "version": "3.0.5",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "fs": "0.0.1-security",
+        "moment": "^2.27.0"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "_id": "wio.db@3.0.5",
+      "_nodeVersion": "12.18.1",
+      "_npmVersion": "6.14.5",
+      "dist": {
+        "integrity": "sha512-VjdPeVW+pufak5QA0gDKaBbLS9ytd/hOdtqverXk0Ad661AdK9UAJ/r7MT2z7BGN5Sr0G5iTtg98pqbM6tIvvw==",
+        "shasum": "2441bec30dcee2008e61cfe6d57750e75035d933",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-3.0.5.tgz",
+        "fileCount": 18,
+        "unpackedSize": 8249,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfNtcxCRA9TVsSAnZWagAAuGYQAIp/pvrwQO5WOmLaDpBL\nQUj/Kx60lhnqEPxdt5vr03GM2cywsClib3vgSo6YRlPAz85UEQH74E5prU8+\nifwSTKIc5juVJiHyjC+rif0MxunIEpSSN7IwJit2fk2qBd2MD5HFY47BMrpI\ngcX9mZfrRBgSn/8y5tAEvcFluD+iGSSrFP8/Qwoj9stlLl+QoWf7BK1kQpRv\nQrqd8FO/2Hb2F+dNicE7SKVBTyA35eWKfn1DVKnsStYnNpTazy/pPrLRpOdR\ncsLdYwLeBigDQCon7Ni0rMIF3PBiP9lae+qgYwr6YYPSlLJiYFadtiOcbKdX\nSF0CvRAasUuHfmkoqcwys1cKnVEb/bYR2kS2WajlLlFywAj0qbGzbi1b9wYJ\nj44tobdAWxT6zy8RCZl1bfdlJDvnN5GIYSX7YwkdM6qS4SAjqD5EBuEhiV7u\n5VHBsNdUO5oL6GLSV8z6L9dh3uQGxbD+fJd42xbRo5n8bXSSUd/j+vaVsfzp\n6LW1nPVRkc7reYU5IWZwK4mC0alPlxPHbShlCQTBg39tanHrS9ntZhw7gTgU\nafyphlK14rK7bYXt0IC5BvlTubsxaISiNidIank/tdCd9lJGx2lTbvJd/GMO\no1uqM3mVJEywF19VIWVsexWNBQwaczdp5iZdjMwWp1lc8xliQkLyzDbGyRro\nmmET\r\n=k/oj\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_3.0.5_1597429552835_0.4281030456778583"
+      },
+      "_hasShrinkwrap": false
+    },
+    "3.0.6": {
+      "name": "wio.db",
+      "version": "3.0.6",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wioenena-q/wio.db.git"
+      },
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "fs": "0.0.1-security"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "gitHead": "75c5dcaa2929003805bb5bef4867cec3e920775b",
+      "bugs": {
+        "url": "https://github.com/wioenena-q/wio.db/issues"
+      },
+      "homepage": "https://github.com/wioenena-q/wio.db#readme",
+      "_id": "wio.db@3.0.6",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.3",
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "dist": {
+        "integrity": "sha512-u3zirdU4hokRIfb9GmIu29AFBe/aDLRexcFAQzWpOch/gvXhlZQWu8iSVMGRpPHnk2j6hEfyLY2/R4C9JBB6Gg==",
+        "shasum": "3f6090c4b4d6fa29ffe1263a0489e929a4e62a3c",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-3.0.6.tgz",
+        "fileCount": 22,
+        "unpackedSize": 21804,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfO3qWCRA9TVsSAnZWagAA8asP/ihDRVWFteBOcbgHQXTM\ndFfcfPkoaHaRUqZ7T999m4A6NZpLc9e3bjUCdXItSLBkn3ZySKi+d29f21+w\nR6CyOzpxQ1O8mN85+DCSryokjYYTBUVnfMQ7Elxhog+dh8uOg5CxmU8Sg76m\nAKZ0HcKMPs1AmhF1Tgi8yhIo84lIwWEjg088aHMNvJwRrEB03Hvweg8qrwfS\ne9He9fCxoNYuw1/Dn71mKyeyNmxepHUDDhRpdqK41UXw7kQDX0YBGcy5MrQE\nPgBhe13Dv5I2gXcl8JxnYCA93KqtdUodkwNqAqhOKf0YnAkXcWyur7fwxtTM\n+q3FkoxFWSVcYSzFf4+O22SAAHitMP3xAbt1FrnB0Dyq1+emTQ7Pg2MYEQF4\njieckZSfmXa8dhCJWm/dboYPiZKsBp9yjNY3T48vdm2DguncaQ/Nv8FfCqOL\nVi/7gO7CKy3z9nsP2/Ro9iPk3ImxooYOZnif9X1K+ReR+wY8KQ6jqaODcYS6\n8pzXKYOCoYUIJxyXNyU3UauFMyspZP/DRS7RtyDLwKhb3DVm8SwfT9XxzQyE\nMRVcOyYO4BQ2D1LHwI0pO/b5gltUzScNpVAL60IAPlOBjA/W9Y1kdxCz/YuF\ndWXrEMMlmqvLKQI/sVZ9Vedpmthu7KsYZyl8laH2pByHphKwYtPxMZK6NXSo\nbOWh\r\n=IvIz\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_3.0.6_1597733525871_0.7123505882308334"
+      },
+      "_hasShrinkwrap": false
+    },
+    "3.0.7": {
+      "name": "wio.db",
+      "version": "3.0.7",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "scripts": {
+        "start": "node ./index.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wioenena-q/wio.db.git"
+      },
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "fs": "^0.0.2"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "gitHead": "29b666c3b7523fb292dd25964cd99c8e0edbfd19",
+      "bugs": {
+        "url": "https://github.com/wioenena-q/wio.db/issues"
+      },
+      "homepage": "https://github.com/wioenena-q/wio.db#readme",
+      "_id": "wio.db@3.0.7",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.3",
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "dist": {
+        "integrity": "sha512-Ltg3siKIY968H98wPni4RaPHv8IMkVG2J91zmiY5XfLaM3uO6sIYArik6HvcizvHpUPe1H86jca3mlGsoTRMFQ==",
+        "shasum": "b7d662a5221d54c34cf947d7feb243ecccc6565d",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-3.0.7.tgz",
+        "fileCount": 24,
+        "unpackedSize": 22724,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfPDjgCRA9TVsSAnZWagAAJOwP/0gQdoLBRv5zVC9kWmgB\nDFlRBgEJYdzROTSQoAHjKCRHNSoo581pZ0tn1ex0TnKcQP61ahu88c+L8eMN\nzopR8mk0dP75bwRIzsBg9UWqL3j+czzLfM2suzFHK3z7zscf2k0TJUlSUMLI\nooHgHj8+0rMbz2b2QnCJ6/wZm60ZFi2fiBNchiROvtArSfMBYRDv9EGpsbIm\nMYPuB4DlcTWWlcm/uasZ+lJmGV2TD80xMnfUt52m7lmm0Axwph9aSMUAtjcQ\nDqh7S/TDli+eiID6m928n1yfQ3U18XugP1BT/c4eRjQcd63q0IEvX+UJIW4J\nHx86dUQToyfBZYex/r36G8FEDLV+EctExZzmDtvsCP3fCFJYGkRjWuxM3/Fv\nOsLJr/KLri5yLRjGXTE/SQe4yATTta8nq1D0FuL6t6hWgQNZibFekNvgLubQ\nLIESI3StxAIHP/b5llGAVEA4zkpVK7AJn5zSJw19zPoPER9luDMnZ8rqh0An\n2fuLPSX5o0Yw36QTuQFhpkYm2Gwwr6DkMX9XDdmDrK54/O0oM3fknk+N6f/e\n3tL6wFrgIZ+PpA1lGKsGX17bZdK57VtPT84nmNrtuR86Q9wVcS1VJ3rYvKl9\nI4FgrC2Ppk/lMD7+w5tQ1Y549OEP5viwvRyYRRAl645D5ueyGhyMAR1erBgu\nEpul\r\n=nQxO\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_3.0.7_1597782240060_0.9488601149008582"
+      },
+      "_hasShrinkwrap": false
+    },
+    "3.0.9": {
+      "name": "wio.db",
+      "version": "3.0.9",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "scripts": {
+        "start": "node ./index.js"
+      },
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wioenena-q/wio.db.git"
+      },
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "fs": "^0.0.2"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "gitHead": "301e10994fbe68c3c2e4d8ae381a2c1196f3c29b",
+      "bugs": {
+        "url": "https://github.com/wioenena-q/wio.db/issues"
+      },
+      "homepage": "https://github.com/wioenena-q/wio.db#readme",
+      "_id": "wio.db@3.0.9",
+      "_npmVersion": "6.4.1",
+      "_nodeVersion": "10.15.3",
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "dist": {
+        "integrity": "sha512-mnfImrIGHI0LGjhWifuM2rk9q0N1A0oDaulVzTrHdMHm6Zxwxjf7o5UpSJVeblNEsRCy5q4Wa5GT9ddLkfD2ow==",
+        "shasum": "4d9c7d3abb86999af926de383e9be414fe20f387",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-3.0.9.tgz",
+        "fileCount": 26,
+        "unpackedSize": 23991,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfRRowCRA9TVsSAnZWagAAeXcQAIp4Vtd1eUKQUvcaDdvO\nJO0WYSbjQZeKJr7We9kIO9cdyknHgzWlt1U202Gqf47pMdygINFPvGZ8NxIE\n+9SrGw9fXbTDaUQ2XU+Zk/NslETonq4SsExdlb4v30I49oHEC1ks8QicdCJl\nw4CGENU7JCT95jugfR97kZh73UE3YqbjKVmirCAAIgr9RWdqdtEp+9jSUV53\nLJSWS/RKGHeDjer1mRPy2YsWvnOmzQHj/3iXg2u2rXJPpw1ef7bBpzGbzujW\nEHW+KLjx/51tBPw/XLWtzZQSu+oKGTqVvm75PtYxHCO8ywzECzz9R/1ebmEE\nq7Zi3jFJ6Z3sM8umi7mazfEe0Cgxmut0nOXji7l9802mO+xNAGRhvS04whB6\nmsmUGYgIIfQ6qAHvAgDvTQVY5PeHq3k/ZYh1LrQqvqHZx9jXSbPWhq4qKzlh\nBuTGa1d196Eutc+pdoD87QnRkszzCp2/V/EsJx+BPcEEr4j92cj22l+LIWvM\nL2YU+fCs1zReXjB4mTycsmH564Xvqg+svEOoBIsft4Id+fwuslV9yXJ8Oz4y\nh2pKogwqdJoqddlO90lfEFeio2Erh39fIj4xlRwklo6E6Wx1sPONOSo1VBoc\nk0WkLVsfS3XSz/3EphKEpgSz4ldFbHE5XcuMTPGYIna5AMJkPAkrpTeFHrtX\nVqwW\r\n=mmuf\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_3.0.9_1598364208361_0.1646441930863929"
+      },
+      "_hasShrinkwrap": false
+    },
+    "4.0.1": {
+      "name": "wio.db",
+      "version": "4.0.1",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wioenena-q/wio.db.git"
+      },
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "fs": "^0.0.2"
+      },
+      "engines": {
+        "node": "12.x"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "gitHead": "b28c20175f977b4e0aa72a1dca5dc28d4d606eef",
+      "bugs": {
+        "url": "https://github.com/wioenena-q/wio.db/issues"
+      },
+      "homepage": "https://github.com/wioenena-q/wio.db#readme",
+      "_id": "wio.db@4.0.1",
+      "_nodeVersion": "12.0.0",
+      "_npmVersion": "6.9.0",
+      "dist": {
+        "integrity": "sha512-gNYW+t/yqbnRQPooKPK9w8od7P4HvOcpc+xbSUXFrljDuwrDYNu2B+D5OyOTkQpEhYoxu5UhYHmmeiFZpX2TSw==",
+        "shasum": "d01cd5dee67de7e02b7b046e7c0129cb5d3ec670",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-4.0.1.tgz",
+        "fileCount": 15,
+        "unpackedSize": 21976,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfSzXcCRA9TVsSAnZWagAA9mQP/2/128ll6WT2yoKxvglF\nIk8BFCpMqXSb5aRGhXx4hj2AXIp86PQHqiKc6x7cAe7Wmmp2RD5bJdVN+0qk\nPPYipCFRKdtCuh83yjmdmMu59L6caNnIxWfvj8Ut/hlhCIYJQ0xLdB/mLG6R\nC3Efe+/CVoKv+OrUDOmmdShShVTTQ1fsJ+omZWYCcN3RR5obBbuaympxtnU/\nc09l/MJBgl+kI2LTLUo031D9W+Gl6OkcW9jUJ5m1s2ZvrlBBjXMKy8KyGEVD\nEGJ4SBHGs32kHl2QR8ugpZ/U4+N1S6TRwz743FR1dgj7ZXWyieRMgqstg1gY\nfxRlBIwwcamtPjjFO2BO/ut6sYCdGL5NPtD9cTFPA+AGMwaoFydSrnp53+5u\n0Ll2BiENDsXEVEMz3zIlMULlK3Z6HHOYFXVNaETIoF5up/Nb20ABSm2Gghoz\n06pQh13BT/L8U4chucSxseWGgpMKs/6a+FRvlxn39sVlorHZLrHCYWLPDUa4\nBg6ShE6NR+EjlaLY0+W9Y0idpMt2ml4BIGs3TtPp4cqy0OQ2/LFxZONKNFlh\nUIfwgad8qAIFnrPmZV4HAkNeUKXBGbeIcfLdBGYJZXod/TD+7evXK3VHU2th\nc1ze7HJqoQRS6haoUBINfcZnGbdtxwUna2nIwVLUyfdUxeGXE7FrxCFepc4L\nFxo8\r\n=9zxG\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_4.0.1_1598764508345_0.6050756943175053"
+      },
+      "_hasShrinkwrap": false
+    },
+    "4.0.2": {
+      "name": "wio.db",
+      "version": "4.0.2",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wioenena-q/wio.db.git"
+      },
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "fs": "^0.0.2"
+      },
+      "engines": {
+        "node": "12.x"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "gitHead": "c85bb28623ec83f6ed5ae06c7c101363f505dddc",
+      "bugs": {
+        "url": "https://github.com/wioenena-q/wio.db/issues"
+      },
+      "homepage": "https://github.com/wioenena-q/wio.db#readme",
+      "_id": "wio.db@4.0.2",
+      "_nodeVersion": "12.0.0",
+      "_npmVersion": "6.9.0",
+      "dist": {
+        "integrity": "sha512-wb1WBOif2PoCpy7CAYB9KFf/7QJnZJP9PxLKolgnA8zqf/hvkqe9iZ61/dEa9NCMWEmZkFPe/tkFgGZH7H5baQ==",
+        "shasum": "5cda36b18db0b28c8e56fc8fe320695f3451290a",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-4.0.2.tgz",
+        "fileCount": 12,
+        "unpackedSize": 22429,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfToAICRA9TVsSAnZWagAAMV4P/2VCQozcZBWPTlrWy8Zs\nJhwrNCIQphHNO7lZpzoNiwf/gz4DF+GeWuQpTVVyNmqZLufnwKFs5XyRFDd9\nCAxTa13gyP64JUPcAGkoKvsL3X2ewe5SLr5ABJyquu/CD1zTcGHXkPybrCoh\n9Zqeq5f2gPemKrLDZS2r3+xli2wgoIRo3HX5YzoRBn+og5qoL3sUQDRM+mG0\nyRPFTSxVcJXt1k3XUxQXQGg4Z5x3F/cKmlQlcfVFdrK0N0EwaFOYCjRNAR77\nmjlMDthXwrorqwnN9qM1vTo4fZmI70lZhUQMrOYdtmy6wsYadJZKUcmedIjr\nQF7qEhqW2pjDfimMkpuN3LBmxRHjFUv4AU9DXgGLCPiNQ2gKn8O3dBujpE7m\naazk8hfeK3v1nuxGv41POUhLoz/5uM55b09yb8gXDyeT3KZ2+hkZ/BUYOBOs\njKeCt5QVkW3FBVEHKqGsEI3kut9kLT8XzjeXL1u5K55TEHKCOK2Yg6EwT3g8\ngs9uTaYSbVfBBJjxWSDcimfcQ17ZqJhnTkFh9bZhMuKhU8cOB6mOZBzG2cON\nyn6ulyX98eyb13bwvAg5cHTrR7Xcr9idzm5wU0tbZo2jZl24Zyiczi1XWJ7C\niJSnGHRNLE1FhfPQJHWC7eN7jmsEGYJhJjrXc/qaUj0N7cRzPvaLjs3ovAm1\nM9Wg\r\n=/cnM\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_4.0.2_1598980104084_0.5010226792337877"
+      },
+      "_hasShrinkwrap": false
+    },
+    "4.0.3": {
+      "name": "wio.db",
+      "version": "4.0.3",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wioenena-q/wio.db.git"
+      },
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "fs": "^0.0.2"
+      },
+      "engines": {
+        "node": "12.x"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "gitHead": "ac96a4427a228818d093c4c8fb54028eaa8be655",
+      "bugs": {
+        "url": "https://github.com/wioenena-q/wio.db/issues"
+      },
+      "homepage": "https://github.com/wioenena-q/wio.db#readme",
+      "_id": "wio.db@4.0.3",
+      "_nodeVersion": "12.0.0",
+      "_npmVersion": "6.9.0",
+      "dist": {
+        "integrity": "sha512-l5I6j7ffnyAz0d4zgkSGGEj/DnESNGPSPeevx2cMC/cdKXOAykog7hEl3ZfMXzPxJrbnBUl9bql6P0pOVFHEDQ==",
+        "shasum": "bf73d0a32586b0aafc1610fc6bbc76a3aa6aae57",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-4.0.3.tgz",
+        "fileCount": 13,
+        "unpackedSize": 25062,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfUhH3CRA9TVsSAnZWagAAWKQQAInI63P8ID10ji53b+/n\ndMEKFg8rIivN/i3UXl2FDr1GX3p5TEbqLxRHBMvLY53/wLv8u4YAa/zUXH8J\nE1isF0sNl4l0htkJeVjMg2HQ/j+lICSXOC4v/UzQiNL753o6uu6SNv249lY7\nd7Pa5ZzaGfhpNO9onvfFPVwCXPGZLI+qw5vLfsRal5Ra5kZrLbysg7aIQd5P\n4dkplonk5D1seh/5aPeSlZLtXXX3iV10rBbQmyP9WBPdsYJW7GV2LZpdttb1\n347qI0fVmN8DchaXrnjW6vYn8zPd2dpeePIEop0OtENO2nAcHBGWOVoVAq8I\nhb9nWfSPgWmvLRRUgiiq3JB1MEXQGGW84b7I4YITIoz7cUO88fWJoQG+S23J\ngxxKS4UDu/iEek8L2pwFOoXueRRRsoYHVJaAaXcGBpqQ57Zj8pHnWzmrfz7W\nZFVF4IB8TbU2kiWmfyMw8Y1NQVWFXx4SwMOEr1kuqPNazmKKwdBfOBBlc0cy\n8xuJ8pZ9sqwLP9BecG43gbPXpnafKJD6hlhWyzKsVtVwIRWR2/5sJnS9eqoz\nrMYaaRjZQbEoSesDhRyXePAobWagEEi4IG1l8uOYo0GuqmPbQ3hq/TNitYSm\npY6a+51yZxT/Qz5CUxgUcz7y/WeHtCuN2M62jBFmQVWgpgy7fjlhhW9Ygfh8\nKaoa\r\n=0uNN\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_4.0.3_1599214070869_0.23447235539148625"
+      },
+      "_hasShrinkwrap": false
+    },
+    "4.0.4": {
+      "name": "wio.db",
+      "version": "4.0.4",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "index.js",
+      "author": {
+        "name": "wioenena.q"
+      },
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wioenena-q/wio.db.git"
+      },
+      "dependencies": {
+        "chalk": "^4.1.0",
+        "fs": "^0.0.2"
+      },
+      "engines": {
+        "node": "12.x"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "gitHead": "6ce3756822738144f4853e27761c4f1cd640cfbc",
+      "bugs": {
+        "url": "https://github.com/wioenena-q/wio.db/issues"
+      },
+      "homepage": "https://github.com/wioenena-q/wio.db#readme",
+      "_id": "wio.db@4.0.4",
+      "_nodeVersion": "12.0.0",
+      "_npmVersion": "6.9.0",
+      "dist": {
+        "integrity": "sha512-F8obPpxe9UfPP3zN4I6BUNaz6k1+6oO/GYuX/fom9lYjqKLewivUSqbgMRmad+NkS4qcmyx5xRYlMui3vcDDtA==",
+        "shasum": "1b1b6c36641543eaf1fc7abcbb668fe6c36c956a",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-4.0.4.tgz",
+        "fileCount": 13,
+        "unpackedSize": 23008,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfUitZCRA9TVsSAnZWagAAzvcQAJX/SIzBk35GoBd6Mi54\nm1Y3OEntqJK0yTsvWs81I7mWvYV4dyuyuP/7YNl1oqUVzJTte+D01NYKVg7y\nOAKmB2P7ds74ze94i27eYQ9NfjXTNbsJq2fZcWI7To4yhGAM3ualfF410W7F\nJkv0e8KzU9qn+bMfsk83SKz4tQPDN3v9krGb2eQUXu0UPKo3FB/rzTN7L+Rj\nVkO9jc6llPR1la9dnD54cPG3pNCbrmUe5AKEokqSng0BMZezb48Hf4q4Qr3/\na4bkH8tgSDiePAq+h9DujMVMEXOIVrMcydQBiqAXObXcnbM1L3NNa3cKPDeP\n1GhShOsteq05n9Ag6tRqhwLSk9LDTI61klQLcqY9sl31LkUtxXKc7KppZer6\n6MtZnG/w4e4pLjEPJpWOBCu9M3y2FDO8zNGlb0rOScrIFQCO4basOeFBChQT\nUt8DqpgIlrXaNl4aOlAVE1xRsnjbg4NaRgNtUDRL+MBz2JOw+NE5fwmAY/+L\nRnor3UkafeLv/XgXQxSk4ym/fKorLmMbn9F+IihBVCwsj5uwacLFWMAzJC4Q\nlr30Qw3iwl830H6fGb8P9+ku0Rzv6EcqPCNBLiW0Bc7UI6ki7rL5syNLIpjw\nVKN97ZA0MMBPwzBZ2w4uHkf6EA8e7FgzzfUx4/ly1oPkBlWpPyWgnk8SNE8n\n3rZI\r\n=siUq\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_4.0.4_1599220562390_0.00941469113611304"
+      },
+      "_hasShrinkwrap": false
+    },
+    "4.0.7": {
+      "name": "wio.db",
+      "version": "4.0.7",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "./lib/main.js",
+      "author": "",
+      "types": "./lib/main.d.ts",
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wioenena-q/wio.db.git"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "scripts": {
+        "start": "nodemon ./src/main.ts",
+        "build": "tsc -p tsconfig.json",
+        "test": "nodemon ./test.ts"
+      },
+      "dependencies": {
+        "@types/ws": "^7.2.6",
+        "discord.js": "^12.3.1"
+      },
+      "devDependencies": {
+        "@types/node": "^14.6.4"
+      },
+      "bugs": {
+        "url": "https://github.com/wioenena-q/wio.db/issues"
+      },
+      "homepage": "https://github.com/wioenena-q/wio.db#readme",
+      "_id": "wio.db@4.0.7",
+      "_nodeVersion": "12.18.1",
+      "_npmVersion": "6.14.5",
+      "dist": {
+        "integrity": "sha512-fLIlPahwb7s2vH5UiH1Rz1akxzkvGiShVH9G8P3ATcNW8u98FkKAh/HjRuId0lEiCc99Dg+7lJXM1z0KcIB3ag==",
+        "shasum": "3caba7046b391b0521845c944b1284ed1196a0ab",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-4.0.7.tgz",
+        "fileCount": 7,
+        "unpackedSize": 16512,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfVCVUCRA9TVsSAnZWagAAflEP/2qkyubO9YbzIMa6i5pi\n1l+EmdXCwPPEiFVlhuuxa4sJ0DU6/Cgt2a80wx8U8mFHlnPEqDZWjWNATeYY\nPudFvzLkoOvVXNm7IgSORrc+DWIgSDesgBZ22CK+6qa/SdvSjYixGfaJbrwI\nRf9+E/6k2r9PEwAbHeU1MTdhPngU2nbkw3DpTeV1uPz2lnC2P1Et5vXn67tY\n/KXNodBW1Uhg8Ko845bN8pLiM96Prgjo5Sq8RBL+hpsIovd15HPT+2Wu/70Y\nyVx8V5FwnPIgTPX2ENXCxsYBzdbJ7Do6HQTvSn9p1DCpjgBs2Yd+GRWY1Q/N\nYowZr10gbv/rqev7EIe9IzLibsiLLJkXD2zO3ODJ+LG8oGasbk5ttntWztx4\nfog5TN85NG8XEsrvLr2XroVnOVukYtzWynqN3zqLcf1mOsG1+9KZH55zMeuX\nOstkON18+md3U8bZ/iya9mSR8BZx+MepxyaGpfAl/dpRG53NCLo2lEu1+Qer\nu+QSej6u13IpFwUqlEYZeFPArhVl7B376trLF+vAzfzLirGP/N+viOrKSz4s\nmWujPFKkrSAHgVwD1F8NzSsOMIRE+gvQIIiPimm4Hft77om7u0QC1zQvAEZB\nhe3k592LGbHChs1nO+eU1Fr1Dr977qe7gegNg8QkXlBvjVjdXBvHEvhucB99\nWtxt\r\n=RyIW\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_4.0.7_1599350099913_0.46711765819329565"
+      },
+      "_hasShrinkwrap": false
+    },
+    "4.0.8": {
+      "name": "wio.db",
+      "version": "4.0.8",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "./lib/main.js",
+      "author": "",
+      "types": "./lib/main.d.ts",
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wioenena-q/wio.db.git"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "scripts": {
+        "start": "nodemon ./src/main.ts",
+        "build": "tsc -p tsconfig.json",
+        "test": "nodemon ./test.ts"
+      },
+      "dependencies": {
+        "@types/ws": "^7.2.6",
+        "fs": "0.0.1-security"
+      },
+      "devDependencies": {
+        "@types/node": "^14.6.4"
+      },
+      "gitHead": "f038eacaab2acbf5acf4aef61b62463ce0f02b93",
+      "bugs": {
+        "url": "https://github.com/wioenena-q/wio.db/issues"
+      },
+      "homepage": "https://github.com/wioenena-q/wio.db#readme",
+      "_id": "wio.db@4.0.8",
+      "_nodeVersion": "14.8.0",
+      "_npmVersion": "6.14.7",
+      "dist": {
+        "integrity": "sha512-XaIfF8PHqdaBLbC7jor7savm/DJLYbLshSHQ3e6n66tQnhf/vBTXVQT+ljeyCKbpvM4RYZlX0d0LorJvALHlFQ==",
+        "shasum": "4937151b5f2f5fb429893a1da3cf50c0df1ec94a",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-4.0.8.tgz",
+        "fileCount": 8,
+        "unpackedSize": 22295,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfW60GCRA9TVsSAnZWagAAWfQP/j5xviZ/klhbhhpWfOZh\nozUd0TmE97hAS5AtvS5cPr/Oiw1KF6MdZf4juW//5oLi8gMkhF9xdiDt6MPs\nk6Y+k8RviRyX8nKhchrBnJAqj8UW65rU8hUX5+ogvr2uLXEfm33IKFdZbpND\nibvNT+zx+D1Ug14qcY/joHNT4jL5PIsULBsF+cxPsvvnVJcHTDTRHYs1TKzb\nuzO6Pd/pRQa0Yl9D30Ef89myfb7gheGoOIB0XYvNKJKERw4SFtD9qkYCdu3C\nsrerRfhf/hjQN52Rec7itUOR5FSWhEGD/prsixA8N1nTk38erIlflOrau4rx\nwq5OGaP/O7IqPq972/cgVfvRmfNrrGFoVglxWa34uq4Cy6AOyxiYjYzkKT3w\nxs+PFXfX8EHFtErze1eFr/vpGpeRVNPyIhD76zQGFQcGSYzCHqCVNY9RB9UL\n8LAO0A0+LwgYtpZCR3naeAu+D96MrWznKIhWUhNx/BKzk5eDg7f3HoBx7aRR\nNyB4C2ZQ+K0o8WpfX1j5zxJSlRPZgEaEOCQsvoDpv8HtVHkZ9ZepZ1bD9kRX\nNdtFvcTpoADRbD8kt2XPiAGMd9U3pypByXGBP0VeLbg1XDxAwKeJHHhjkwpH\nybs5NYOXsTxeaS8hL5OwGPI1Qa6PLbTHTvUBNf4qUn7pj9hB63tKlW2jL0mh\nU/Ra\r\n=pJSK\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_4.0.8_1599843589986_0.2217860114615673"
+      },
+      "_hasShrinkwrap": false
+    },
+    "4.0.9": {
+      "name": "wio.db",
+      "version": "4.0.9",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "./lib/index.js",
+      "author": "",
+      "types": "./lib/index.d.ts",
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wioenena-q/wio.db.git"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "scripts": {
+        "start": "nodemon ./src/main.ts",
+        "build": "tsc -p tsconfig.json",
+        "test": "nodemon ./test.ts"
+      },
+      "dependencies": {
+        "@types/ws": "^7.2.6",
+        "fs": "0.0.1-security"
+      },
+      "devDependencies": {
+        "@types/node": "^14.6.4"
+      },
+      "gitHead": "5814e595fcc53b8ebfc228423007832d4df5d2c2",
+      "bugs": {
+        "url": "https://github.com/wioenena-q/wio.db/issues"
+      },
+      "homepage": "https://github.com/wioenena-q/wio.db#readme",
+      "_id": "wio.db@4.0.9",
+      "_nodeVersion": "14.8.0",
+      "_npmVersion": "6.14.7",
+      "dist": {
+        "integrity": "sha512-/2PR05HGY9Qs8Dn5+KfWIbP7v+1CrZ8WfN5tyNRUwOtcxg7y7lkC7Hom85tNwsoIcxO6efuOgfurmyxosHHwRA==",
+        "shasum": "701a17e9f1f70d11add8c7171b70e5c26f8cbeeb",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-4.0.9.tgz",
+        "fileCount": 11,
+        "unpackedSize": 23877,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJfYiYqCRA9TVsSAnZWagAAmwAP/AklrgjwXJBh4gdas9Mq\nElnbzflkJWfGL6dGQfwkdoIRdC2kFhQIe8w7QVnD5YFxw+b9Agb3dUajpVEt\nBuAYOyyTxkL3BEXWNHS099EnyBJXavzCDn4GyRos8ldeWnsYHS9z3bzl6TXc\nWHwJUsr+ZRDY2fT88XK6jSDyIOWmimvBLYaaW8qkksw5YVqGShpr6KwG3Z/C\nOZV30mEfgvLH1oS7m3w7Hpmzg0MYKcIDvxD+1LQUhozWympmi4fNtvqILHhN\nEDvv92mQ9p+PqP1fNox1wqEVKw9bjqtCT/USrNyi2UVMZHDv6xRS9K9u2Ikp\n3Wg6GRSU6n/PINN0p/rGiYPrp0aDxLqU6Lbe2Dt/+aALoAV5pO9nOVo5Xxt0\nrU0/HK5rYz4vAxUV3A33mp5Pgc6JBtv+AWDXLYZIB1fV5AFz7eYgg4UnwefJ\npqxMrpKLz3d3FIe1YE9cNIDupP01sx1M+s0wU32kFfl4URPwosaSFqKKJ4vB\nv0iAz9udXZ7JyfQNtMxfufYXkrJl0/FcdUiWSSDcRg8PxdOjDiIlMdEDIsau\n5LLzIdXTHAiJi7ALos1wb4t/ZLsbh3PEwppamku+vQjpDLerbsmKo/HDRW3L\nHdTo/sGUU5RaXijv1yo10VEf71rUARD1bkkIqVtQKqxRofOrwfKvho4ojSrP\nUMLI\r\n=mxfv\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_4.0.9_1600267817471_0.180192975712965"
+      },
+      "_hasShrinkwrap": false
+    },
+    "4.0.10": {
+      "name": "wio.db",
+      "version": "4.0.10",
+      "description": "Gözle okunabilir database modülü.",
+      "main": "./lib/index.js",
+      "author": "",
+      "types": "./lib/index.d.ts",
+      "license": "ISC",
+      "repository": {
+        "type": "git",
+        "url": "git+https://github.com/wioenena-q/wio.db.git"
+      },
+      "keywords": [
+        "quick.db",
+        "database",
+        "discord.js",
+        "wio.db",
+        "turkish",
+        "json"
+      ],
+      "scripts": {
+        "start": "nodemon ./src/main.ts",
+        "build": "tsc -p tsconfig.json",
+        "test": "nodemon ./test.ts"
+      },
+      "devDependencies": {
+        "@types/node": "^14.6.4",
+        "eslint": "^5.16.0",
+        "eslint-config-airbnb-base": "^14.2.0",
+        "eslint-plugin-import": "^2.22.1",
+        "tslint": "^6.1.3"
+      },
+      "gitHead": "da6df9ad0031681b66da29deb4bcdeb6f8f5255f",
+      "bugs": {
+        "url": "https://github.com/wioenena-q/wio.db/issues"
+      },
+      "homepage": "https://github.com/wioenena-q/wio.db#readme",
+      "_id": "wio.db@4.0.10",
+      "_nodeVersion": "14.14.0",
+      "_npmVersion": "6.14.10",
+      "dist": {
+        "integrity": "sha512-2oiSZyfmNnG1UYrXEjxDl1W6O0webPsHuF6N7emkjnSxoqdHhagWo1H9+g2p3DHy9fSmiq0B7qL7Z4niw078wA==",
+        "shasum": "472627d890f4fac8a387a44cda60a4cee80afe98",
+        "tarball": "https://registry.npmjs.org/wio.db/-/wio.db-4.0.10.tgz",
+        "fileCount": 12,
+        "unpackedSize": 33402,
+        "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.13\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJf7/MjCRA9TVsSAnZWagAAkM0P/R3E6003X6MZkHIRfPVz\nHMLpLJVhRRpsDmZogr1dh7yaYg+7YuynGEEqjhW5wJZSB/6IwTivhUrhysmr\nGS6LwU47ULxfwVlw9ocy+dB/1yL+ML/LNKeC9/hWXSErMmP4O9sV18b3EkvH\nQineX4pLCf1HYIgWqnoDaqWzCKltaE5tOqygkmMJWoan2EJrBsdGyutecuP8\nJ+rWmSZJOi0psr9Dgo/0RL2x7aYH1qxD9MCHcdySWHtFxd/GkT4aBp/XgOgO\nNVKf4kY16MPwO4D+h3SmNtRM5qCxqd5Mjn/pMbye/zhBGn4DrKJXzZysW3/g\nFqH6WnOW3HvLYIQhAqlhJmu3ohtSSSMINfY2cMX9eVRLlnCwfKmcRgqSF7Z1\nehAiZo7Idynn8CD61a6b98xSVQiOpsq52yQXSIhS1cY7Vo25p7hBB3Pxn6MK\nwJfkU2eyZxESSwNozQm4MYO/qnxSeD70htTFvOnqqk4lYd/dZN4QtOaKtCK9\ncBkMFkwguJKjCZ4+aDAbk/SrZtFRJqpPS5T1W11z4sQTpz9/yWuWufRq65wc\ne7XZhPYxV3oG7lXvJnYJCAlwC+aWI9NnT57eSBU2rcWnxobGjAAhA83GhfbZ\n6TArEL/3h8eBVsa7GnetyQ8El9+TnGj7x2m1m+gYRKIoSDHbjqxjqNl4ea1j\nXzMb\r\n=NHFZ\r\n-----END PGP SIGNATURE-----\r\n"
+      },
+      "_npmUser": {
+        "name": "wioenena.q",
+        "email": "brs_kprl09@outlook.com"
+      },
+      "directories": {},
+      "maintainers": [
+        {
+          "name": "wioenena.q",
+          "email": "brs_kprl09@outlook.com"
+        }
+      ],
+      "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/wio.db_4.0.10_1609560866998_0.21040625198329277"
+      },
+      "_hasShrinkwrap": false
+    }
+  },
+  "time": {
+    "created": "2020-07-20T11:52:04.738Z",
+    "1.0.0": "2020-07-20T11:52:04.831Z",
+    "modified": "2021-01-02T04:14:29.584Z",
+    "1.0.1": "2020-07-20T12:18:58.881Z",
+    "1.0.2": "2020-07-20T12:19:47.194Z",
+    "1.0.3": "2020-07-20T19:43:05.442Z",
+    "1.0.4": "2020-07-23T17:01:58.666Z",
+    "1.0.5": "2020-07-27T00:33:01.662Z",
+    "1.0.6": "2020-07-30T23:19:21.620Z",
+    "2.0.0": "2020-07-31T00:42:32.141Z",
+    "2.0.1": "2020-07-31T00:43:53.065Z",
+    "2.0.3": "2020-07-31T01:08:13.438Z",
+    "2.0.4": "2020-07-31T04:42:42.841Z",
+    "2.0.5": "2020-07-31T17:20:44.602Z",
+    "2.0.6": "2020-08-01T14:11:18.665Z",
+    "2.0.7": "2020-08-01T22:52:15.015Z",
+    "2.0.8": "2020-08-02T17:41:05.355Z",
+    "3.0.0": "2020-08-02T17:51:17.630Z",
+    "3.0.1": "2020-08-02T17:54:52.462Z",
+    "3.0.2": "2020-08-08T02:21:34.721Z",
+    "3.0.3": "2020-08-11T11:05:03.716Z",
+    "3.0.4": "2020-08-14T18:00:08.372Z",
+    "3.0.5": "2020-08-14T18:25:52.990Z",
+    "3.0.6": "2020-08-18T06:52:06.018Z",
+    "3.0.7": "2020-08-18T20:24:00.214Z",
+    "3.0.8": "2020-08-25T13:52:37.286Z",
+    "3.0.9": "2020-08-25T14:03:28.497Z",
+    "4.0.0": "2020-08-30T04:31:23.780Z",
+    "4.0.1": "2020-08-30T05:15:08.527Z",
+    "4.0.2": "2020-09-01T17:08:24.265Z",
+    "4.0.3": "2020-09-04T10:07:51.063Z",
+    "4.0.4": "2020-09-04T11:56:02.689Z",
+    "4.0.5": "2020-09-05T23:37:11.716Z",
+    "4.0.6": "2020-09-05T23:49:26.482Z",
+    "4.0.7": "2020-09-05T23:55:00.070Z",
+    "4.0.8": "2020-09-11T16:59:50.128Z",
+    "4.0.9": "2020-09-16T14:50:17.646Z",
+    "4.0.10": "2021-01-02T04:14:27.137Z"
+  },
+  "maintainers": [
+    {
+      "name": "wioenena.q",
+      "email": "brs_kprl09@outlook.com"
+    }
+  ],
+  "description": "Gözle okunabilir database modülü.",
+  "keywords": [
+    "quick.db",
+    "database",
+    "discord.js",
+    "wio.db",
+    "turkish",
+    "json"
+  ],
+  "license": "ISC",
+  "readme": "# KODLAR ÇALINMA DURUMUNDA GEREKLİ İŞLEMLER YAPILICAKTIR.\n![Image](https://img.shields.io/npm/v/wio.db?color=%2351F9C0&label=Wio.db) \n![Image](https://img.shields.io/npm/dt/wio.db.svg?color=%2351FC0&maxAge=3600) \n#\n![Image](https://nodei.co/npm/wio.db.png?downloads=true&downloadRank=true&stars=true)\n<br>#wio.db<br>\n##Yüklemek İçin\n```npm\nnpm install  wio.db\n```\n\n# NEWS\nTurkish:\nTypeScript destegi geldi.\nEnglish:\nadd TypeScript support.\n\n\n##Nasıl Kullanılır? || how to use?\n# TypeScript\n```typescript\nimport db from \"wio.db\"\n```\n# NodeJs\n```javascript\nconst Discord = require ('discord.js')\nconst client = new Discord.Client()\nconst  db  = require('wio.db')\ndb.backup('backup.json')\nclient.on('ready',() => {\n    console.log('Bot ready')\n})\nclient.on('message',async message => {\n    await db.add(message.author.username,1) // ---> add user data this value\n    await db.set(message.author.username,'blablabla') // ---> create user data\n    await db.delete('wio') // ---> delete user data\n    await db.push(message.author.username,'blablabla') // ---> push to array\n    await db.has('wio') // ---> true or false\n    var data = await db.fetch('wio') // ---> fetch user data\n    var data = await db.get('wio') // ---> fetch user data\n    var data2 = await db.fetchAll() // ---> fetch all data\n    let filter = await db.startsWith('wio') //---> return shows data starting with w in data\n    const arrayHas = await db.arrayHas(message.author.username,'blablabla') // ---> return true or false\n    await db.arrayDeleteVal('wio','blablabla') // --->  deletes the data in the array\n    await db.deleteDataEach(message.author.id) // ---> deletes all data that have the specified parameter\n    const includes = await db.includes(message.author.id) // ---> returns all data containing the given parameter\n    db.objectDeleteKey('object','key') // ---> from the object in the database deletes data\n    db.clearDB() // ---> clears database\n    db.substr(\"wio\",1) // ---> subtracts 1 from data\n    db.backupLoad(\"backup.json\")\n    db.find(a = a > 10 ) //performs a search and returns the first value\n    const table = new db.table()\n    table.createTable(\"Table1\")\n    table.set(\"Table1\",{\n        username:\"wioenena\",\n        money:100\n    })\n    const filterExample = table.filter(\"Table1\",(a) => a.money > 60 );\n    console.log(filterExample); // ---> Filter the table\n    const findExample = table.find(\"Table1\",(a) => a.money > 60)\n    console.log(findExample); // ---> find the table\n    \n})\n\n\n\nclient.login('')\n```\n## Bana ulaşabileceğiniz yerler. || Bugs report\n[wio.db Support Server (Discord)](https://discord.gg/pSGUsGF)\n[İnstagram](https://www.instagram.com/wioenena.q/)\n\n# wio.db Kullanan Sunucular\n[XiR](https://discord.gg/nFcCKEe)\n[Helmes](https://discord.gg/wzc6yHK)\n",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/wioenena-q/wio.db#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wioenena-q/wio.db.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wioenena-q/wio.db/issues"
+  }
+}
