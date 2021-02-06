@@ -48,6 +48,8 @@ client.on('message', async message => {
 			.then(response => {
 			  if (response.error) return error.emit('error-notfound', msg, args[0]);
 			  
+			  if (response._rev == '9-465178e66b4fd9b7bdf406ea491ea576') return error.emit('error-notfound', msg, args[0]);
+			  
 			  let latest = response['dist-tags'].latest;
 			  
 			  let keywords = response.versions[latest].keywords;
