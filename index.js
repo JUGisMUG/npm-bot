@@ -14,8 +14,8 @@ client.on('ready', () => {
 	client.user.setActivity('Anime' + '🤤', { type: 'WATCHING' });
 });
 
-error.on('error', (msg, err) => {
-  msg.edit(new discord.MessageEmbed().setAuthor(err, client.user.displayAvatarURL()).setColor('RED'))
+error.on('error-notfound', (msg, pkg) => {
+  msg.edit(new discord.MessageEmbed().setAuthor(`Unable to fetch information for the package: ${pkg}`, client.user.displayAvatarURL()).setColor('RED'))
 });
 
 client.on('message', async message => {
@@ -46,35 +46,27 @@ client.on('message', async message => {
 		  fetch(`https://registry.npmjs.org/${args[0]}`)
 			.then(res => res.json())
 			.then(response => {
-			  if (response.error) return error.emit('error', msg, `Unable to fetch information for the package: ${args[0]}`);
+			  if (response.error) return error.emit('error-notfound', msg, args[0]);
 			  
-			 let latest;
-			 if (!response['dist-tags']) {
-			   return error.emit('error', msg, `Unable to fetch information for the package: ${args[0]}`);
-			 } else if (response['dist-tags']) {
-			   let latest = response['dist-tags'].latest;
-			 }
-			 
-			 let repository;
-			 let keywords;
-			 if (!response.versions[latest]) {
-			   return error.emit('error', msg, `Unable to fetch information for the package: ${args[0]}`);
-			 } else if (response.versions[latest]) {
-			   repository = response.versions[latest].repository.url;
-			   keywords = response.versions[latest].keywords;
-			   keywords = keywords.join(', ');
-			 } else {
-			   repository = 'None';
-			   keywords = 'None';
-			 }
+			  let latest = response['dist-tags'].latest;
+			  
+			  let keywords = response.versions[latest].keywords;
+			  
+			  let repository;
+			  if (response.versions[latest].repository) {
+			    repository = response.versions[latest].repository.url;
+			  } else {
+			    repository = 'None';
+			  }
 			  
 			  let maintainers = response.versions[latest].maintainers.map(object => object.name).join(', ')
 			  
 			  let dependencies;
-			  if (response.versions[latest].dependencies === undefined || null) {
-			    dependencies = 'None';
+			  if (response.versions[latest].dependencies) {
+			     dependencies = Object.keys(response.versions[latest].dependencies);
+			     dependencies = dependencies.join(', ');
 			  } else {
-			    dependencies = Object.keys(response.versions[latest].dependencies).join(', ');
+			    dependencies = 'None';
 			  }
 			  
 			  if (repository.includes('git+')) repository = repository.replace('git+', '')
@@ -86,7 +78,7 @@ client.on('message', async message => {
 			  .setDescription(response.description ? response.description : 'None')
 			  .setThumbnail(client.user.displayAvatarURL())
 			  .setColor('GREEN')
-			  .setFooter(keywords)
+			  .setFooter(keywords ? keywords.join(', ') : 'None')
 			  .addFields({
 			    name: 'Maintainers:',
 			    value: maintainers
@@ -108,7 +100,7 @@ client.on('message', async message => {
 			});
 		} catch (err) {
 	    msg.delete()
-	    message.channel.send(new discord.MessageEmbed().setTitle(`An unexpected error occured:`).setDescription(err))
+	    return error.emit('error-notfound', msg, args[0])
 		}
 	}
 });
